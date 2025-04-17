@@ -1,0 +1,31 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "titulo": "Lavar Louça",
+      "descricao": "Lavar Louça depois do almoço",
+      "completada": true,
+      "dataCriacaoTarefa": "17/04/2025",
+      "prazoFinal": "18/04/2025",
+      "prioridade": "media"
+    },
+    {
+      "id": "2",
+      "titulo": "Buscar a namorada no curso",
+      "descricao": "Buscar a namorada no curso, se não,já era",
+      "completada": false,
+      "dataCriacaoTarefa": "17/04/2025",
+      "prazoFinal": "18/04/2025",
+      "prioridade": "alta"
+    },
+    {
+      "id": "3",
+      "titulo": "Conserto do Carro",
+      "descricao": "Levar o carro no mecânico porque está com barulho estranho",
+      "completada": false,
+      "dataCriacaoTarefa": "17/04/2025",
+      "prazoFinal": "30/04/2025",
+      "prioridade": "alta"
+    }
+  ]
+}
