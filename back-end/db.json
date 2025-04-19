@@ -1,0 +1,49 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "titulo": "Lavar Louça",
+      "descricao": "Lavar Louça depois do almoço",
+      "completada": true,
+      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
+      "prazoFinal": "2025-05-20T18:00:00Z",
+      "prioridade": "media"
+    },
+    {
+      "id": 2,
+      "titulo": "Buscar namorada no curso",
+      "descricao": "Buscar namorada no cursinho se não ja era",
+      "completada": false,
+      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
+      "prazoFinal": "2025-05-20T18:00:00Z",
+      "prioridade": "alta"
+    },
+    {
+      "id": 3,
+      "titulo": "Conserto do carro",
+      "descricao": "Botar o carro no mecanico",
+      "completada": false,
+      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
+      "prazoFinal": "2025-05-20T18:00:00Z",
+      "prioridade": "media"
+    },
+    {
+      "titulo": "ir pra igreja",
+      "descricao": "rezar na igreja",
+      "completada": true,
+      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
+      "prazoFinal": "2025-05-20T18:00:00Z",
+      "prioridade": "alta",
+      "id": 4
+    },
+    {
+      "titulo": "ir na praia",
+      "descricao": "ir na praia",
+      "completada": true,
+      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
+      "prazoFinal": "2025-05-20T18:00:00Z",
+      "prioridade": "alta",
+      "id": 5
+    }
+  ]
+}
