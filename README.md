@@ -70,16 +70,19 @@ Clone o repositório:
 **git clone https://github.com/leonardorodriguesdoria/Inventione_ToDoList_Test**
 
 **cd front-end**
+
 Instale as dependências:
 
-
 **npm install**
+
 Execução
 Em terminais separados:
 
 Inicie a API fake (JSON Server):
 
 **cd back-end**
+
+**npm install**
 
 **json-server --watch db.json**
 
