@@ -43,9 +43,7 @@ Angular Material
 
 TypeScript
 
-SCSS
-
-RxJS
+CSS
 
 Backend (Fake):
 
@@ -56,10 +54,6 @@ REST API
 Ferramentas:
 
 Angular CLI
-
-Jasmine/Karma (Testes)
-
-GitHub Actions (CI)
 
 🚀 Como Executar o Projeto
 Pré-requisitos
