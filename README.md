@@ -73,24 +73,24 @@ Instalação
 Clone o repositório:
 
 bash
-##git clone https://github.com/seu-usuario/todo-list-angular.git
-##cd todo-list-angular
+**git clone https://github.com/seu-usuario/todo-list-angular.git**
+**cd todo-list-angular**
 Instale as dependências:
 
 bash
-##npm install
+**npm install**
 Execução
 Em terminais separados:
 
 Inicie a API fake (JSON Server):
 
 bash
-##json-server --watch db.json
+**json-server --watch db.json**
 
 Inicie a aplicação Angular:
 
 bash
-##ng serve
+**ng serve**
 Acesse no navegador:
 
 http://localhost:4200
