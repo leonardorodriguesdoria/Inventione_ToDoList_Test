@@ -72,24 +72,24 @@ Angular CLI 15+
 Instalação
 Clone o repositório:
 
-bash
+
 **git clone https://github.com/seu-usuario/todo-list-angular.git**
 **cd todo-list-angular**
 Instale as dependências:
 
-bash
+
 **npm install**
 Execução
 Em terminais separados:
 
 Inicie a API fake (JSON Server):
 
-bash
+
 **json-server --watch db.json**
 
 Inicie a aplicação Angular:
 
-bash
+
 **ng serve**
 Acesse no navegador:
 
