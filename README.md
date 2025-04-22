@@ -73,7 +73,7 @@ Instalação
 Clone o repositório:
 
 
-**git clone https://github.com/seu-usuario/todo-list-angular.git**
+**git clone https://github.com/leonardorodriguesdoria/Inventione_ToDoList_Test**
 **cd todo-list-angular**
 Instale as dependências:
 
