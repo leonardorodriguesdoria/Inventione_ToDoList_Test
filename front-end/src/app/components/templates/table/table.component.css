@@ -1,0 +1,66 @@
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filter-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-field {
+  width: 100%;
+  max-width: 400px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.table-scroll {
+  min-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .table-scroll {
+    min-width: 100%;
+  }
+
+  .search-field {
+    max-width: 100%;
+  }
+}
+
+.edit-button {
+  color: #1976d2;
+}
+.delete-button {
+  color: #f44336;
+}
+
+.finished {
+  color: #228b22;
+}
+
+.unFinished {
+  color: #f44336;
+}

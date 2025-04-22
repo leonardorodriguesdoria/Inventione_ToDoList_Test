@@ -1,0 +1,16 @@
+<div>
+  <h1 [align]="'center'" mat-dialog-title>Deseja excluir esta tarefa?:</h1>
+</div>
+<div mat-dialog-actions [align]="'center'">
+  <button
+    mat-raised-button
+    mat-dialog-close
+    class="delete-button"
+    (click)="deleteTask()"
+  >
+    Excluir
+  </button>
+  <button mat-raised-button color="warn" mat-dialog-close class="cancel-button">
+    Cancelar
+  </button>
+</div>

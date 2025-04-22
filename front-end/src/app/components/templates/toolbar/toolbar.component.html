@@ -1,0 +1,30 @@
+<mat-toolbar class="dark-toolbar">
+  <mat-icon>supervised_user_circle</mat-icon>
+  <span class="title">TODO List CRUD</span>
+
+  <span class="spacer"></span>
+
+  <button
+    mat-flat-button
+    class="login-button desktop-only"
+    (click)="addNewTask()"
+    color="warn"
+  >
+    Adicionar Tarefa
+  </button>
+
+  <button mat-icon-button class="menu-button" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="mobile-menu" [ngClass]="{ 'mobile-visible': isMenuOpen }">
+  <button
+    mat-flat-button
+    class="login-button"
+    (click)="addNewTask(); toggleMenu()"
+    color="warn"
+  >
+    Adicionar Tarefa
+  </button>
+</div>

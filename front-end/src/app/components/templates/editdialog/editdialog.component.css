@@ -1,0 +1,13 @@
+mat-form-field {
+  width: 100%;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #228b22;
+  color: #fff;
+}

@@ -2,48 +2,75 @@
   "todo": [
     {
       "id": 1,
-      "titulo": "Lavar Louça",
-      "descricao": "Lavar Louça depois do almoço",
-      "completada": true,
-      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
-      "prazoFinal": "2025-05-20T18:00:00Z",
-      "prioridade": "media"
+      "title": "Ir para a academia",
+      "description": "Malhar Ombro",
+      "completed": false,
+      "createdAt": "2025-05-15T10:00:00Z",
+      "dueDate": "2025-05-20T18:00:00Z",
+      "priority": "media"
     },
     {
       "id": 2,
-      "titulo": "Buscar namorada no curso",
-      "descricao": "Buscar namorada no cursinho se não ja era",
-      "completada": false,
-      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
-      "prazoFinal": "2025-05-20T18:00:00Z",
-      "prioridade": "alta"
+      "title": "Buscar namorada no curso",
+      "description": "Buscar namorada no cursinho se não ja era",
+      "completed": false,
+      "createdAt": "2025-05-15T10:00:00Z",
+      "dueDate": "2025-05-20T18:00:00Z",
+      "priority": "alta"
     },
     {
       "id": 3,
-      "titulo": "Conserto do carro",
-      "descricao": "Botar o carro no mecanico",
-      "completada": false,
-      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
-      "prazoFinal": "2025-05-20T18:00:00Z",
-      "prioridade": "media"
+      "title": "Conserto do carro",
+      "description": "Botar o carro no mecanico",
+      "completed": true,
+      "createdAt": "2025-05-15T10:00:00Z",
+      "dueDate": "2025-05-20T18:00:00Z",
+      "priority": "media"
     },
     {
-      "titulo": "ir pra igreja",
-      "descricao": "rezar na igreja",
-      "completada": true,
-      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
-      "prazoFinal": "2025-05-20T18:00:00Z",
-      "prioridade": "alta",
+      "title": "ir pra igreja",
+      "description": "rezar na igreja",
+      "completed": false,
+      "createdAt": "2025-05-15T10:00:00Z",
+      "dueDate": "2025-05-20T18:00:00Z",
+      "priority": "baixa",
       "id": 4
     },
     {
-      "titulo": "ir na praia",
-      "descricao": "ir na praia",
-      "completada": true,
-      "dataCriacaoTarefa": "2025-05-15T10:00:00Z",
-      "prazoFinal": "2025-05-20T18:00:00Z",
-      "prioridade": "alta",
-      "id": 5
+      "title": "Ir na praia do saco",
+      "description": "Tomar banho de mar",
+      "dueDate": "2025-04-14T03:00:00.000Z",
+      "priority": "baixa",
+      "completed": true,
+      "createdAt": "2025-04-20T19:19:16.651Z",
+      "id": 7
+    },
+    {
+      "title": "Impressão de documentação",
+      "description": "Imprimir documentos de parentes",
+      "dueDate": "2025-04-16T03:00:00.000Z",
+      "priority": "media",
+      "completed": false,
+      "createdAt": "2025-04-21T04:59:30.587Z",
+      "id": 8
+    },
+    {
+      "title": "Fundamentos de programação com Python",
+      "description": "Estudar principais paradigmas com a linguagem Pyhton",
+      "dueDate": "2025-04-25T03:00:00.000Z",
+      "priority": "media",
+      "completed": true,
+      "createdAt": "2025-04-22T03:16:38.490Z",
+      "id": 9
+    },
+    {
+      "title": "Editar Perfil do Linkedin",
+      "description": "Editar Perfil do linkedin para recrutadores",
+      "dueDate": "2025-04-23T03:00:00.000Z",
+      "priority": "media",
+      "completed": false,
+      "createdAt": "2025-04-22T04:34:25.706Z",
+      "id": 11
     }
   ]
 }

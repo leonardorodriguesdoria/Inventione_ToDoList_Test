@@ -1,0 +1,65 @@
+<h1 mat-dialog-title>Formulário para adicionar tarefa</h1>
+<div mat-dialog-content>
+  <form [formGroup]="todoForm">
+    <mat-form-field>
+      <mat-label>Título da tarefa</mat-label>
+      <input
+        matInput
+        placeholder="Insira o nome da tarefa"
+        formControlName="title"
+      />
+      <mat-error *ngIf="todoForm.controls['title'].invalid">
+        {{ "Título é obrigatório" }}
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Descrição da tarefa</mat-label>
+      <textarea matInput formControlName="description"></textarea>
+      <mat-error *ngIf="todoForm.controls['description'].invalid">
+        {{ "Descrição é obrigatória" }}
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+      <mat-label>Prazo final da tarefa:</mat-label>
+      <input
+        matInput
+        type="text"
+        [matDatepicker]="picker"
+        formControlName="dueDate"
+      />
+      <mat-error *ngIf="todoForm.controls['dueDate'].invalid">
+        {{ "data do prazo é obrigatória" }}
+      </mat-error>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Nível de prioridade da tarefa:</mat-label>
+      <mat-select placeholder="prioridade" formControlName="priority">
+        <mat-option value="baixa">Baixa</mat-option>
+        <mat-option value="media">Média</mat-option>
+        <mat-option value="alta">Alta</mat-option>
+      </mat-select>
+      <mat-error *ngIf="todoForm.controls['priority'].invalid">
+        {{ "Prioridade é obrigatória" }}
+      </mat-error>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close class="cancel-button">
+    Cancelar
+  </button>
+  <button
+    mat-raised-button
+    mat-dialog-close
+    color="primary"
+    class="add-button"
+    (click)="addTask()"
+  >
+    Adicionar
+  </button>
+</div>
